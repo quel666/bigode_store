@@ -9,6 +9,8 @@
 }
 
 header {
+
+  
     background-image: url("../../img/image.svg");
     background-repeat: no-repeat;
     background-position: center;
@@ -20,6 +22,52 @@ header {
       display: flex;
       justify-content: space-between;
       padding: 16px 92px;
+      align-items: center;
+
+      & ul {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+
+        & li a {
+          color:#EFEFEFB2;
+        }
+
+      
+      }
     }
 
+    .btns {
+      & button {
+        padding: 8px 16px;
+        border-radius: 8px;
+        background: transparent;
+        color: #fff;
+      }
+    
+      & button:first-child {
+        border: 16px;
+        margin-right:16px;
+        background: #3B44F6;
+    
+      }
+    
+      & button:last-child {
+        border-color: #fff;
+      }
+    }
+
+  & section {
+    margin-top: 197px;
+    margin-left: 95px;
+
+   
+  }
+
+  & section h2 {
+    font-weight: 600;
+  }
+
 }
+
+
